@@ -1,0 +1,6 @@
+Book - The C Programming Language
+Edition - Second Edition
+Authors - Brian W Kernighan, Dennis M Ritchie
+Dates:
+1978 - The C Programming Language
+1983 - ANSI C (ANSI - American National Standards Institute)
