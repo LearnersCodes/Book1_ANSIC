@@ -10,7 +10,7 @@ Brief : Converts Fahrenheit to Celsius,
 
 int main (void)
 {
-  int cel, fahr;
+  float cel, fahr;
   int lower, upper, step;
 
   lower = 0;
@@ -21,10 +21,9 @@ int main (void)
 
   while(fahr <= upper)
   {
-    /* 5 is multiplied first and then 9 is divided because integer division of 5/9 directly
-       will truncate the result to 0. All values will become 0. */
-    cel = 5 * (fahr - 32) / 9;
-    printf("%3d\t%6d\n", fahr, cel);
+    /* 5.0/9.0 is not truncated. */
+    cel = (5.0/9.0) * (fahr - 32.0);
+    printf("%3.0f\t%6.1f\n", fahr, cel);
     fahr = fahr + step;
   }
 }
