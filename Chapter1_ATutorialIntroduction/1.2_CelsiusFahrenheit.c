@@ -43,4 +43,6 @@ int main (void)
     printf("%7.0f\t%14.1f\n", cel, fahr);
     cel = cel + step;
   }
+
+  return 0;
 }

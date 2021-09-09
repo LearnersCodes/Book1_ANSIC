@@ -19,4 +19,5 @@ int main (void)
   printf("Backslash (\\\\)      | Hello \\World\n");
   printf("Unknown (\\c)        | Hello \"\\c\" World\n");
   printf("------------------------------------------\n");
+  return 0;
 }

@@ -11,4 +11,5 @@ int main (void)
 {
   /* The string "Hello World" is an argument to the function printf. */
   printf("Hello World\n");
+  return 0;
 }
