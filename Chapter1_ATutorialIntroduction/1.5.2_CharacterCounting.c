@@ -9,12 +9,11 @@
 
 int main(void)
 {
-  long nc;
+  double nc;
   
-  while(getchar()!='\n')
-  {
-    nc++;
-  }
-  printf("Number of characters = %ld\n", nc);
+  /* Provide Ctrl+D to give EOF. */
+  for(nc=0; getchar()!=EOF; nc++);
+  
+  printf("Number of characters = %.0f\n", nc);
   return 0;
 }
