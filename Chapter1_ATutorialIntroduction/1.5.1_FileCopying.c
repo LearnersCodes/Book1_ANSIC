@@ -10,11 +10,15 @@ Brief : Copies input to output.
 int main(void)
 {
   int c;
-  c = getchar();
-  while(c!=EOF)
+
+  printf("Value of EOF = %d\n", EOF);
+  
+  /* Parenthesis is used around c=getchar because != has higher precendence than =.
+     If parenthesis is not used then c will be either assigned with 0 or 1 because,
+     the result of getchar() != EOF will be boolean. */
+  while((c=getchar())!=EOF)
   {
     putchar(c);
-    c = getchar(); 
   }
   return 0;
 }
