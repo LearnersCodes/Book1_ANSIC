@@ -1,6 +1,6 @@
 /*****************************************************
 File name : 1.1_EscapeSequences.c
-Date : 8/9/2021
+Date : 8 SEP 2021
 Brief : Experimenting with different escape sequences.
 
 *****************************************************/

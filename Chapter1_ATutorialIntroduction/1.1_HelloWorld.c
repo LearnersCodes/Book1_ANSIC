@@ -1,6 +1,6 @@
 /**********************************
 File name : 1.1_HelloWorld.c
-Date : 8/9/2021
+Date : 8 SEP 2021
 Brief : Prints Hello World.
 
 **********************************/
