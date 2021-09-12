@@ -1,7 +1,7 @@
 /***************************************************************************
-File name : 1.4_CelsiusFahrenheitMacros.c
-Date : 9 SEP 2021
-Brief : Converts Fahrenheit to Celsius usng for loop and symbolic constants,
+ File name : 1.4_CelsiusFahrenheitMacros.c
+ Date : 9 SEP 2021
+ Brief : Converts Fahrenheit to Celsius usng for loop and symbolic constants,
         for fahrenheit values from 0, 20, ..., 300.
 
 ****************************************************************************/
