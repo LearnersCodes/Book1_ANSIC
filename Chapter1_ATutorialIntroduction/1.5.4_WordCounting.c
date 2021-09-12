@@ -13,7 +13,7 @@
 int main(void)
 {
   int c = 0;
-  long nl=0, nw=0, nc=0;
+  long nl=1, nw=0, nc=0;
   char state = OUT;
   
   /* Provide Ctrl+D to give EOF. */
@@ -36,6 +36,7 @@ int main(void)
     }
   }
   
+  printf("\n");
   printf("Number of words      = %ld\n", nw);
   printf("Number of lines      = %ld\n", nl);
   printf("Number of characters = %ld\n", nc);
