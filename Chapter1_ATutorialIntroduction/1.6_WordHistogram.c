@@ -41,11 +41,11 @@ int main(void)
   }
   
   printf("\n");
-  printf("Length of words:\n");
+  printf("Horizontal Histogram of length of words:\n");
   for(i=0;i<nw;i++)
   {
-    printf("Word-%d | ",(i+1));
-    printf("%ld | ",nc[i]);
+    printf("Word-%4d | ",(i+1));
+    printf("%4ld | ",nc[i]);
     for(j=0;j<nc[i];j++)
     {
       printf("-");
