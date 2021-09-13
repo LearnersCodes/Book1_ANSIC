@@ -23,10 +23,9 @@ int main(void)
 
 int power (int base, int pow)
 {
-  int i,p;
-  p = 1;
+  int p;
 
-  for (i=1; i<=pow; i++)
+  for (p=1; pow>0; pow--)
   {
     p = p * base;
   }
