@@ -1,5 +1,5 @@
 /*****************************************************************
- File name : 1.6_DigitCountArrays.c
+ File name : 1.6.a_DigitCountArrays.c
  Date : 12 SEP 2021
  Brief : Counts the number each digit, space and other characters.
 
