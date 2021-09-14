@@ -1,5 +1,5 @@
 /*****************************************************
- File name : 1.3_CelsiusFahrenheitForLoop.c
+ File name : 1.3.a_CelsiusFahrenheitForLoop.c
  Date : 9 SEP 2021
  Brief : Converts Fahrenheit to Celsius usng for loop,
         for fahrenheit values from 0, 20, ..., 300.
