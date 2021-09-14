@@ -1,5 +1,5 @@
 /********************************************************
- File name : 1.5.3_PrintEscapeSequences.c
+ File name : 1.5.3.c_PrintEscapeSequences.c
  Date : 11 SEP 2021
  Brief : Replaces tabs, backspace and backslash with
          their respective escape sequence.
