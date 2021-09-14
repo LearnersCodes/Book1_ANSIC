@@ -1,5 +1,5 @@
 /*****************************************************
- File name : 1.7_TempConvrFunc.c
+ File name : 1.7.b_TempConvrFunc.c
  Date : 13 SEP 2021
  Brief : Converts Fahrenheit to Celsius usng functions,
          for fahrenheit values from 0, 20, ..., 300.
