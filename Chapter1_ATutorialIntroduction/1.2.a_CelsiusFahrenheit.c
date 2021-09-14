@@ -1,5 +1,5 @@
 /**************************************************
- File name : 1.2_CelsiusFahrenheit.c
+ File name : 1.2.a_CelsiusFahrenheit.c
  Date : 8 SEP 2021
  Brief : Converts Fahrenheit to Celsius,
         for fahrenheit values from 0, 20, ..., 300.
