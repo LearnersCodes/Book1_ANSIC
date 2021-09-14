@@ -1,5 +1,5 @@
 /**********************************************************
- File name : 1.7_PowerFunc.c
+ File name : 1.7.a_PowerFunc.c
  Date : 13 SEP 2021
  Brief : Function to calculate power of a base.
 
