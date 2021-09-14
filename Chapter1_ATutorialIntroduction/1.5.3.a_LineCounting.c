@@ -1,5 +1,5 @@
 /********************************************************
- File name : 1.5.3_LineCounting.c
+ File name : 1.5.3.a_LineCounting.c
  Date : 11 SEP 2021
  Brief : Counts the number of new lines, blanks and tabs.
 
