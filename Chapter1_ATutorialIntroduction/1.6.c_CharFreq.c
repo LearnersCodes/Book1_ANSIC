@@ -1,5 +1,5 @@
 /*****************************************************************
- File name : 1.6_CharFreq.c
+ File name : 1.6.c_CharFreq.c
  Date : 13 SEP 2021
  Brief : Histogram of the frequency of characters(only alphabets).
          Frequency = No. of characters of a type
