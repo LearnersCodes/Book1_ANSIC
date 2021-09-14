@@ -1,5 +1,5 @@
 /**********************************************************
- File name : 1.6_WordHistogram.c
+ File name : 1.6.b_WordHistogram.c
  Date : 12 SEP 2021
  Brief : Counts the lenght of words and prints a histogram.
 
