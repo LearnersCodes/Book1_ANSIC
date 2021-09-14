@@ -1,5 +1,5 @@
 /********************************************************
- File name : 1.5.3_MultipleBlanks.c
+ File name : 1.5.3.b_MultipleBlanks.c
  Date : 11 SEP 2021
  Brief : Replaces multiple blanks with s single blank.
 
