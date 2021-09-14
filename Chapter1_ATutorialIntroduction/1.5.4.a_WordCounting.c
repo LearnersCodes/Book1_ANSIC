@@ -1,5 +1,5 @@
 /*********************************************************
- File name : 1.5.4_WordCounting.c
+ File name : 1.5.4.a_WordCounting.c
  Date : 12 SEP 2021
  Brief : Counts the number of words, lines and characters.
 
