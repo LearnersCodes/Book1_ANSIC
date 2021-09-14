@@ -1,5 +1,5 @@
 /**********************************************
- File name : 1.5.2_CharacterCounting.c
+ File name : 1.5.2.a_CharacterCounting.c
  Date : 10 SEP 2021
  Brief : Counts the number of input characters.
 
