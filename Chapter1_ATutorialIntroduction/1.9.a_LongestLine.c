@@ -42,13 +42,25 @@ int getnewline(char line[], int length)
 {
   char c;
   int len=0;
-
+  int BlnkCnt=0;
+ 
   /* 2 is subtracted because 2 places are required for '\n' and '\0' characters. */
   while (((c = getchar())!='\n')&&(c!=EOF)&&(len<(length-2)))
   {
     line[len++]=c;
+
+    /* For not using/removing the trailing blanks or tabs. */
+    if((c!=' ')&&(c!='\t'))
+    {
+      BlnkCnt = 0;
+    }
+    else
+    {
+      BlnkCnt++;
+    }
   }
 
+  len -= BlnkCnt;
   line[len]='\n';  
   line[len+1]='\0';
 
