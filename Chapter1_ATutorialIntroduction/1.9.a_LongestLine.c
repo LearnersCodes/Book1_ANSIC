@@ -19,6 +19,7 @@ int main(void)
   char longestline[MAXLEN];
   int len = 0, max = 0;
 
+  /* Double enter will lead to exit of this while loop., because input line length will be 0. */
   while(((len = getnewline(newline, MAXLEN))>0))
   { 
     if(len > max)
@@ -30,8 +31,8 @@ int main(void)
 
   if (max >0)
   {
-    printf("\nThe longest line: ");
-    printf("%s\n", longestline);
+    printf("\nThe longest line: %s", longestline);
+    printf("Length of the longest line: %d\n\n", max);
   }
 
   return 0;
@@ -48,8 +49,8 @@ int getnewline(char line[], int length)
     line[len++]=c;
   }
 
-  line[len+1]='\n';  
-  line[len+2]='\0';
+  line[len]='\n';  
+  line[len+1]='\0';
 
   return len;      
 }
