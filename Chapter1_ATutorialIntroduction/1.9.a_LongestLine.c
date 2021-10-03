@@ -12,11 +12,13 @@
 
 int getnewline(char line[], int length);
 void copyline(char from[], char to[]);
+void reverseline(char from[], char to[], int length);
 
 int main(void)
 {
   char newline[MAXLEN];
   char longestline[MAXLEN];
+  char reversedline[MAXLEN];
   int len = 0, max = 0;
 
   /* Double enter will lead to exit of this while loop., because input line length will be 0. */
@@ -32,7 +34,9 @@ int main(void)
   if (max >0)
   {
     printf("\nThe longest line: %s", longestline);
-    printf("Length of the longest line: %d\n\n", max);
+    printf("Length of the longest line: %d\n", max);
+    reverseline(longestline, reversedline, max);
+    printf("Longest line in reverse: %s\n\n", reversedline);
   }
 
   return 0;
@@ -71,4 +75,13 @@ void copyline(char from[], char to[])
 {
   int i;
   for (i=0;(to[i]=from[i])!='\0';i++);
+}
+
+void reverseline(char from[], char to[], int length)
+{
+  int i;
+  for (i=0; i<length; i++)
+  {
+    to[length-1-i] = from[i];
+  }
 }
